@@ -24,12 +24,12 @@ async function run() {
     const user = data[0].rows[0];
 
     await Promise.all(
-      cats.map(cat => {
+      cocktails.map(cocktail => {
         return client.query(`
-        INSERT INTO cats (name, type, url, year, lives, is_sidekick, user_id)
+        INSERT INTO cocktails (name, category, url, year, lives, is_sidekick, user_id)
         VALUES ($1, $2, $3, $4, $5, $6, $7)
         `,
-        [cat.name, cat.type, cat.url, cat.year, cat.lives, cat.isSidekick, user.id]);
+          [cocktail.name, cocktail.category, cat.url, cat.year, cat.lives, cat.isSidekick, user.id]);
       })
     );
     

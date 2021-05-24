@@ -17,11 +17,11 @@ async function run() {
         hash VARCHAR(512) NOT NULL
       );
     
-      CREATE TABLE cats (
+      CREATE TABLE cocktails (
         id SERIAL PRIMARY KEY NOT NULL,
         name VARCHAR(512) NOT NULL,
-        type VARCHAR(128) NOT NULL,
-        url VARCHAR(1024) NOT NULL,
+        category VARCHAR(128) NOT NULL,
+        is_there_alcohol VARCHAR(1024) NOT NULL,
         year INTEGER NOT NULL,
         lives INTEGER NOT NULL,
         is_sidekick BOOLEAN DEFAULT FALSE NOT NULL,

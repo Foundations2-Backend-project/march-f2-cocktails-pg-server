@@ -17,21 +17,36 @@ async function run() {
         hash VARCHAR(512) NOT NULL
       );
     
-      CREATE TABLE cocktails (
+      CREATE TABLE favorites (
         id SERIAL PRIMARY KEY NOT NULL,
         name VARCHAR(512) NOT NULL,
         category VARCHAR(128) NOT NULL,
-        is_there_alcohol VARCHAR(1024) NOT NULL,
-        year INTEGER NOT NULL,
-        lives INTEGER NOT NULL,
-        is_sidekick BOOLEAN DEFAULT FALSE NOT NULL,
-        user_id INTEGER NOT NULL REFERENCES users(id)
+        alcohol_present VARCHAR(512) NOT NULL,
+        glass VARCHAR(512) NOT NULL,
+        instructions VARCHAR(512) NOT NULL,
+        image VARCHAR(512) NOT NULL,
+        ingredient1 VARCHAR(512) NOT NULL,
+        ingredient2 VARCHAR(512) NOT NULL,
+        ingredient3 VARCHAR(512) NOT NULL,
+        ingredient4 VARCHAR(512) NOT NULL,
+        ingredient5 VARCHAR(512) NOT NULL,
+        ingredient6 VARCHAR(512) NOT NULL,
+        ingredient7 VARCHAR(512) NOT NULL,
+        ingredient8 VARCHAR(512) NOT NULL,
+        ingredient9 VARCHAR(512) NOT NULL,
+        ingredient10 VARCHAR(512) NOT NULL,
+        ingredient11 VARCHAR(512) NOT NULL,
+        ingredient12 VARCHAR(512) NOT NULL,
+        ingredient13 VARCHAR(512) NOT NULL,
+        ingredient14 VARCHAR(512) NOT NULL,
+        ingredient15 VARCHAR(512) NOT NULL,
+        user_id VARCHAR(512) NOT NULL REFERENCES users(id)
       );
     `);
 
     console.log('create tables complete');
   }
-  catch(err) {
+  catch (err) {
     // problem? let's see the error...
     console.log(err);
   }

@@ -1,5 +1,5 @@
 /* eslint-disable indent */
-const rawData = [{
+const rawData = { 'drinks': [{
   'idDrink': '12162',
   'strDrink': 'Screwdriver',
   'strDrinkAlternate': null,
@@ -157,5 +157,6 @@ const rawData = [{
     'strImageAttribution': 'Ralf Roletschek https://www.wikidata.org/wiki/Q15080600',
     'strCreativeCommonsConfirmed': 'Yes',
     'dateModified': '2017-09-02 12:45:25'
-  }];
+  }] 
+};
 export default rawData;

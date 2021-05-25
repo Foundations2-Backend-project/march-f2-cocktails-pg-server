@@ -1,4 +1,4 @@
-import rawData from '../data/cocktail-data.js';
+import rawData from '../data/cocktails.js';
 import { formatCocktails } from '../lib/munge-utils.js';
 
 

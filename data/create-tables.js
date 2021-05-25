@@ -40,7 +40,7 @@ async function run() {
         ingredient13 VARCHAR(512),
         ingredient14 VARCHAR(512),
         ingredient15 VARCHAR(512),
-        user_id VARCHAR(512) NOT NULL REFERENCES users(id)
+        user_id INTEGER NOT NULL REFERENCES users(id)
       );
     `);
 

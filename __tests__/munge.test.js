@@ -1,6 +1,7 @@
 import rawData from '../data/cocktail-data.js';
 import { formatCocktails } from '../lib/munge-utils.js';
 
+
 describe('API Data munging', () => {
 
   const expectedCocktails = [{
@@ -79,6 +80,31 @@ describe('API Data munging', () => {
     expect(output).toEqual(expectedCocktails);
   });
 
+  //for test 2
+  const screwdriverRecipe = [{
+    drinkName: 'Screwdriver',
+    drinkCategory: 'Ordinary Drink',
+    alcoholPresent: 'Alcoholic',
+    drinkGlass: 'Highball glass',
+    drinkInstructions: 'Mix in a highball glass with ice. Garnish and serve.',
+    drinkImage: 'https://www.thecocktaildb.com/images/media/drink/8xnyke1504352207.jpg',
+    ingredient1: 'Vodka',
+    ingredient2: 'Orange juice',
+    ingredient3: null,
+    ingredient4: null,
+    ingredient5: null,
+    ingredient6: null,
+    ingredient7: null,
+    ingredient8: null,
+    ingredient9: null,
+    ingredient10: null,
+    ingredient11: null,
+    ingredient12: null,
+    ingredient13: null,
+    ingredient14: null,
+    ingredient15: null
+  }];
 
+    
 
 });

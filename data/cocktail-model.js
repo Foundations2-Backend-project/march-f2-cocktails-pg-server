@@ -1,10 +1,10 @@
-export const data = [{
-  drinkName: 'Screwdriver',
-  drinkCategory: 'Ordinary Drink',
+export const cocktails = [{
+  name: 'Screwdriver',
+  category: 'Ordinary Drink',
   alcoholPresent: 'Alcoholic',
-  drinkGlass: 'Collins Glass',
-  drinkInstructions: 'Mix in a highball glass with ice. Garnish and serve.',
-  drinkImage: 'https://www.thecocktaildb.com/images/media/drink/8xnyke1504352207.jpg',
+  glass: 'Collins Glass',
+  instructions: 'Mix in a highball glass with ice. Garnish and serve.',
+  image: 'https://www.thecocktaildb.com/images/media/drink/8xnyke1504352207.jpg',
   ingredient1: 'Vodka',
   ingredient2: 'Orange Juice',
   ingredient3: null,

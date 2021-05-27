@@ -19,6 +19,7 @@ async function run() {
     
       CREATE TABLE favorites (
         id SERIAL PRIMARY KEY NOT NULL,
+        drink_id TEXT NOT NULL,
         name VARCHAR(512) NOT NULL,
         category VARCHAR(128) NOT NULL,
         alcohol_present VARCHAR(512) NOT NULL,

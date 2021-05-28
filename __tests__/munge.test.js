@@ -51,12 +51,12 @@
 //     ingredient15: null
 //   },
 //   {
-//     drinkName: 'Whiskey Sour',
-//     drinkCategory: 'Ordinary Drink',
+//     name: 'Whiskey Sour',
+//     category: 'Ordinary Drink',
 //     alcoholPresent: 'Alcoholic',
-//     drinkGlass: 'Old-fashioned glass',
-//     drinkInstructions: 'Shake with ice. Strain into chilled glass, garnish and serve. If served \'On the rocks\', strain ingredients into old-fashioned glass filled with ice.',
-//     drinkImage: 'https://www.thecocktaildb.com/images/media/drink/hbkfsh1589574990.jpg',
+//     glass: 'Old-fashioned glass',
+//     instructions: 'Shake with ice. Strain into chilled glass, garnish and serve. If served \'On the rocks\', strain ingredients into old-fashioned glass filled with ice.',
+//     image: 'https://www.thecocktaildb.com/images/media/drink/hbkfsh1589574990.jpg',
 //     ingredient1: 'Blended whiskey',
 //     ingredient2: 'Lemon',
 //     ingredient3: 'Powdered sugar',

@@ -1,14 +1,12 @@
 /* eslint-disable no-console */
 import client from '../lib/client.js';
 
-// async/await needs to run in a function
 run();
 
 async function run() {
 
   try {
 
-    // run a query to create tables
     await client.query(` 
       CREATE TABLE users (
         id SERIAL PRIMARY KEY NOT NULL,

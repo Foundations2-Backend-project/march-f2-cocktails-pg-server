@@ -1,4 +1,5 @@
 export const cocktails = [{
+  drinkId: '1234',
   name: 'Screwdriver',
   category: 'Ordinary Drink',
   alcoholPresent: 'Alcoholic',
